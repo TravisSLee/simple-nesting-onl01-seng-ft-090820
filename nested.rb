@@ -128,6 +128,6 @@ def adding_to_dennis
         }
      }
 programmer_dennis_languages = programmer_hash[:dennis_ritchie][:languages]
-programmer_dennis_languages.join("Assembly")
+programmer_dennis_languages << "Assembly"
 programmer_hash
 end
